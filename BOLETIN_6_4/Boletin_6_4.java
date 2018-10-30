@@ -14,13 +14,18 @@ public class Boletin_6_4 {
          
         Persona per1 = new Persona("Juan", 80);
         Persona per2 = new Persona("Maria", 60);
-         
-        
-        
-        per1.visualizar();
-         
-        System.out.println("La diferencia de ");
-        Persona.compararPeso(per1, per2);
                  
+        Persona.compararPeso(per1, per2).visualizar();
+                
+        Persona.compararPeso(per1, per2).getPeso();
+        
+        
+        
+        
+        
+       
+        
+        
+       
      }
 }

@@ -41,16 +41,13 @@ public class Persona {
     if (persona1.peso > persona2.peso){
     return persona1;                
     } 
-    else (persona1.peso <= persona2.peso){
+    else{
     return persona2;    
+ 
     }
-    
         
     } 
     
     }
-    
-    
-    
-            
-}
+  
+  
