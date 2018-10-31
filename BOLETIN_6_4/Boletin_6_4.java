@@ -13,11 +13,12 @@ public class Boletin_6_4 {
          a diferenza de peso entre elas .*/
          
         Persona per1 = new Persona("Juan", 80);
-        Persona per2 = new Persona("Maria", 60);
+        Persona per2 = new Persona("Maria", 90);
                  
-        Persona.compararPeso(per1, per2).visualizar();
+        Persona.compararPesoMayor(per1, per2).visualizar();
                 
-        Persona.compararPeso(per1, per2).getPeso();
+        float diferencia = ((Persona.compararPesoMayor(per1, per2).getPeso())-(Persona.compararPesoMenor(per1, per2).getPeso()));
+         System.out.println(" La diferencia de peso entre " + per1.getNombre() + " y " + per2.getNombre() + " es de: " + diferencia + " Kg. ");
         
         
         

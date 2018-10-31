@@ -34,20 +34,26 @@ public class Persona {
     }
      
     public void visualizar(){
-        System.out.println("Nombre:" + nombre + "Peso:" + peso);
+        System.out.println(" Nombre: " + nombre + " Peso: " + peso);
     }
     
-    public static Persona compararPeso(Persona persona1, Persona persona2){
-    if (persona1.peso > persona2.peso){
-    return persona1;                
-    } 
-    else{
-    return persona2;    
- 
+    public static Persona compararPesoMayor(Persona persona1, Persona persona2) {
+        if (persona1.peso > persona2.peso) {
+            return persona1;
+        } else {
+            return persona2;
+        }
     }
-        
-    } 
-    
+
+    public static Persona compararPesoMenor(Persona persona1, Persona persona2) {
+        if (persona1.peso < persona2.peso) {
+            return persona1;
+        } else {
+            return persona2;
+
+        }
     }
+
+}
   
   
