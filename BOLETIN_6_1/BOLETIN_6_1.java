@@ -15,7 +15,7 @@ public class BOLETIN_6_1 {
                 
         System.out.println("Teclea un numero para comprobar si es positivo");
         Scanner numeros = new Scanner(System.in);
-        int num1 = numeros.nextInt();
+        double num1 = numeros.nextInt();
         while (num1 < 0) {
             System.out.println("Error el numero es negativo");
             num1 = numeros.nextInt();
